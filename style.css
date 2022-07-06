@@ -63,7 +63,8 @@ p {
 
 .section-donate {
     width: 100%;
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .donate-intro {
@@ -134,4 +135,41 @@ p {
     justify-content: center
 }
 
-.donate-input div a {}
+.section-plan {
+    padding-bottom: 100px;
+}
+
+.plan-cards {
+    display: flex;
+    justify-content: center;
+    margin: 0 8%;
+}
+
+.card {
+    font-family: 'Poppins', sans-serif;
+    width: 30%;
+    background-color: #B3B3B3;
+    margin: 1.5%;
+    padding: 60px 25px;
+    border-radius: 5px;
+}
+
+.card h3 {
+    font-size: 24;
+}
+
+.card p {
+    font-size: 16;
+}
+
+#food-blue {
+    background-color: #4F9DA610;
+}
+
+#shelter-pink {
+    background-color: #FF595910;
+}
+
+#education-yellow {
+    background-color: #FFF4D6;
+}
