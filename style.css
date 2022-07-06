@@ -2,6 +2,7 @@
 google fonts 
 font-family: 'Inter', sans-serif;
 font-family: 'Poppins', sans-serif;
+font-family: 'Lobster', cursive;
 */
 body {
     margin: 0;
@@ -107,6 +108,7 @@ p {
     border-color: #FF5959;
     color: #FF5959;
     transition: .5s ease;
+    cursor: pointer;
 }
 
 .donate-input {
@@ -155,11 +157,11 @@ p {
 }
 
 .card h3 {
-    font-size: 24;
+    font-size: 24px;
 }
 
 .card p {
-    font-size: 16;
+    font-size: 16px;
 }
 
 #food-blue {
@@ -172,4 +174,46 @@ p {
 
 #education-yellow {
     background-color: #FFF4D6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #0B0D17;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer h2 {
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    text-transform: capitalize;
+    margin-top: 0;
+    font-weight: 200;
+}
+
+footer p {
+    color: #D9DBE1;
+    font-size: 14px;
 }
