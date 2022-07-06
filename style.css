@@ -196,25 +196,73 @@ p {
     border-radius: 10px;
 }
 
+.section-map {
+    display: flex;
+    padding: 0 8%;
+    margin-bottom: 100px;
+}
+
+.section-map .half-width img {
+    width: 100%;
+}
+
+.section-map ul {
+    list-style: none;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-map ul li::before {
+    content: "\25C9";
+    color: #FF5959;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.section-map h2 {
+    margin-top: 50px;
+}
+
+.section-map .half-width {
+    padding-right: 0;
+}
 
 
+.section-updates {
+    margin-bottom: 100px;
+}
 
 
+.email-form .container-60p {
+    background-color: #FFF4D6;
+    padding: 75px;
+}
 
+.email-form input {
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    font-size: 16px;
+    padding: 12px 15px;
+    font-family: 'Poppins', sans-serif;
+}
 
+.email-form .email-email {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.email-form .email-btn {
+    padding: 12px 40px;
+    background-color: #FF5959;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: -4px;
+}
 
 
 footer {
