@@ -19,6 +19,14 @@ body {
     width: 60%;
 }
 
+.container-50p {
+    width: 50%;
+}
+
+.container-50p p {
+    padding: 0 10%;
+}
+
 h1 {
     font-family: 'Inter', sans-serif;
     font-size: 65px;
@@ -235,7 +243,7 @@ p {
 }
 
 
-.email-form .container-60p {
+.email-form .container-50p {
     background-color: #FFF4D6;
     padding: 75px;
 }
